@@ -4,7 +4,7 @@ def tugilgan_yil():
     yosh = int(input("Yoshingiz nechida? "))
     hozirgi_yil = 2024
     tugilgan_yil = hozirgi_yil - yosh
-    print(f"{name}, siz {tugilgan_yil}-yilda tug'ilgansiz.")
+    print(f"{ism}, siz {tugilgan_yil}-yilda tug'ilgansiz.")
     
 #2
 
@@ -12,7 +12,7 @@ def kvadrati_va_kubi():
     son = int(input("Iltimos, biror son kiriting: "))
     kvadrati = son** 2
     kubi = son ** 3
-    print(f"{number} ning kvadrati {kvadrati}, kubi esa {kubi}.")
+    print(f"{son} ning kvadrati {kvadrati}, kubi esa {kubi}.")
 #3
 def juft_yoki_toq():
     son = int(input("Iltimos, biror son kiriting: "))
@@ -35,7 +35,7 @@ def son(x=None, y=2):
 def toplam():
     son = int(input("Iltimos, biror son kiriting: "))
     for i in range(2, 11):
-        if number % i == 0:
+        if son % i == 0:
             print(f"{son} {i} ga qoldiqsiz bo'linadi.")
         else:
             print(f"{son} {i} ga qoldiqsiz bo'linmaydi.")
