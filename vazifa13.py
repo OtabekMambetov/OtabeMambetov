@@ -15,6 +15,13 @@ talaba = {"Ismi" : "Otabek", "Familiya" : "Mambetov", "Yil":2005, }
 talaba_json = json.dumps(talaba)
 print(talaba_json)
 #3
+with open('data.json','w') as f:
+    json.dump(data,f)
+  print("Saqlandi")
+with open('talaba.json','w') as f:
+    json.dump(talaba,f)
+
+#4
 import json
 
 talaba1={ "name": "Tom", "lastname": "Price", "year": 4, "faculty": "Engineering"}
@@ -26,3 +33,9 @@ talaba3_json=json.dumps(talaba3)
 print(talaba1_json)
 print(talaba2_json)
 print(talaba3_json)
+with open('talaba1.json','w') as f:
+    json.dump(talaba,f)
+with open('talaba2.json','w') as f:
+    json.dump(talaba,f)
+with open('talaba3.json','w') as f:
+    json.dump(talaba,f)
